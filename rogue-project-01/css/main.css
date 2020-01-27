@@ -1,0 +1,148 @@
+/***** BASE STYLES *****/
+.main-body {
+  background-color: white;
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#special #reviews #contact {
+  height: 215px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+    font-family: 'Wisdom';
+    src: url('../fonts/Wisdom.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/***** LAYOUT *****/
+.full-width {
+  border-bottom: 1px solid #eeeeee;
+  border-top: 1px solid #eeeeee;
+  float: left;
+  margin: 0 20px 35px 25px;
+  width: 1360px;
+}
+
+.third-width {
+  float: left;
+  width: 408px;
+}
+
+/***** HEADER *****/
+header h1 {
+  color: #77a466;
+  float: left;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px 20px 0 20px;
+  text-transform: uppercase;
+}
+
+nav {
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 45px 0 45px 0;
+}
+
+nav ul li a {
+  color: #77a466;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/***** INTRO *****/
+.image {
+  border-bottom: 3px solid #77a466;
+  border-top: 3px solid #77a466;
+  margin: 0 20px 15px 20px;
+  padding: 0;
+  width: 1360px;
+}
+
+intro h2 {
+  color: #77a466;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 23px;
+  margin-bottom: 15px;
+  padding: 0 0 0 25px;
+  text-transform: uppercase;
+}
+
+#intro p {
+  font-size: 16px;
+  line-height: 25px;
+  width: 1150px;
+  margin: 0 0 45px 25px;
+}
+
+/***** MAIN *****/
+
+h3 {
+  font-size: 12px;
+  line-height: 25px;
+  text-transform: uppercase;
+  padding: 20px 0 0 25px;
+}
+
+#special li {
+  color: #77a466;
+  font-size: 16px;
+  line-height: 40px;
+  list-style: none;
+}
+
+#reviews {
+  font-size: 16px;
+  line-height: 21px;
+  text-align: left;
+  width: 348px;
+}
+
+#contact {
+  font-size: 16px;
+  line-height: 25px;
+  width: 190px;
+}
+
+#special, #reviews, #contact {
+  padding: 0 0 0 25px;
+}
+
+#right-border {
+  border-right: 1px solid #eeeeee;
+  height: 215px;
+}
+
+/***** FOOTER *****/
+
+footer h2 {
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 23px;
+  margin: 35px 0 35px 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 1360px;
+}
+
+#fresh {
+  color: #77a466;
+  font-family: 'Wisdom', cursive;
+  text-transform: lowercase;
+  font-weight: normal;
+}

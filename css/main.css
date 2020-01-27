@@ -1,0 +1,206 @@
+/***** BASE STYLES *****/
+.full-body {
+  background-color: #F5F4F0;
+  font-family: 'Roboto Mono', monospace;
+  height: 100%;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/***** GRID LAYOUT *****/
+.full-width {
+  width: 100%;
+  min-width: 1000px;
+}
+
+.three-fourth-width {
+  float: left;
+  width: 75%;
+}
+
+.half-width {
+  float: left;
+  height: 250px;
+  width: 50%;
+}
+
+.third-width {
+  float: left;
+  width: 33.3%;
+}
+
+.quarter-width {
+  float: left;
+  width: 25%;
+  height: 50px;
+}
+
+/***** HEADER *****/
+header {
+  background: url(../img/wildflower-poppies.jpg);
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+}
+
+header img {
+  float: left;
+  margin: 65px 50px 50px 70px;
+  width: 60%;
+}
+
+nav {
+  float: right;
+  padding: 40px 40px;
+
+}
+
+nav ul li {
+  display: inline-block;
+  padding-right: 20px;
+  letter-spacing: 2px;
+}
+
+nav ul li a {
+  color: #F23005;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+/***** INTRO *****/
+.intro-about-bg {
+  background-color: #F5F4F0;
+  width: 100%;
+  height: 150px;
+}
+
+#intro h1 {
+  color: #838554;
+  font-family: 'Prompt', sans-serif;
+  font-size: 55px;
+  font-weight: lighter;
+  margin: 0;
+  padding: 50px 0px 0px 0px;
+  text-align: center;
+  width: 100%;
+}
+
+/***** ABOUT ME *****/
+#about h2 {
+  color: #BF9850;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+  letter-spacing: 8px;
+  padding: 20px 0 0 10px;
+  text-align: center;
+}
+
+#about img {
+  float: left;
+  margin: 0 50px 0 50px;
+  width: 250px;
+}
+
+#about p {
+  float: left;
+  line-height: 35px;
+}
+
+#about-p-spacing {
+  padding: 83px 0 0 0;
+}
+
+#about-layout {
+  padding: 0px 0 0 0;
+  width: 72%;
+}
+
+/***** WORK *****/
+#work {
+  background-color: #838554;
+  height: 650px;
+  width: 100%;
+}
+#work h2 {
+  color: #F5F4F0;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+  letter-spacing: 10px;
+  margin: 100px 0 0px 100px;
+  padding: 275px 103px 40px 0px;
+  text-align: center;
+}
+
+#work h3 {
+  text-align: center;
+}
+
+#work img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+}
+
+#work img {
+  border: solid;
+  border-width: 5px;
+  color: #BF9850;
+}
+
+#work a {
+  color: #F5F4F0;
+  text-decoration: none;
+}
+
+/***** CONTACT *****/
+ #contact h2 {
+  color: #F28157;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+  letter-spacing: 10px;
+  padding: 100px 0 0 0;
+  text-align: center;
+}
+
+#contact h3 {
+  color: #BF9850;
+  font-size: 20px;
+  font-weight: lighter;
+  margin: 0;
+  text-align: center;
+}
+
+#contact p {
+  color: #F28157;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 10px 0 0 0;
+  padding-top: 10px;
+  text-align: center;
+}
+
+#contact-info-box {
+  float: right;
+  width: 38%;
+}
+
+.email-link {
+  text-decoration: none;
+}
+
+/***** FOOTER *****/
+#main-img {
+  clear: both;
+  height: 409px;
+  margin: 40px 0 40px 40px;
+  width: 58.4%;
+}
+
+nav a {
+  display: inline-block;
+  margin: 0 22px 0 0;
+  padding: 0 22px 0 0;
+  text-align: center;
+}
