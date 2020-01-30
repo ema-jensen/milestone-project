@@ -10,7 +10,6 @@
 /***** GRID LAYOUT *****/
 .full-width {
   width: 100%;
-  min-width: 1000px;
 }
 
 .three-fourth-width {
